@@ -41,6 +41,8 @@ p {
 div {
   background-color: mediumaquamarine;
   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+          /*url("https://lapkins.ru/upload/iblock/502/502b07d758123654e07fd63cfa4a3eac.jpg"); прямая ссылка на url не раместит его по центру и в пропорции*/
+
   /*background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); /* можно свободно поменять фоновый цвет для элемента div.
   																		 поставьте на фон градиент. https://webgradients.com/*/
   /*background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);*/
@@ -49,3 +51,4 @@ div {
   text-align: center; /*разместить название и картинку по центру обложки*/
   margin: auto; /*Это незнакомое заклинание поместит div по центру по горизонтали.  Так как div — не текст, то text-align здесь не сработает. */
 }
+
