@@ -34,3 +34,4 @@ function draw() {
     text('🖤', mouseX, mouseY);
   }
 }
+console.log('Hello World!');
