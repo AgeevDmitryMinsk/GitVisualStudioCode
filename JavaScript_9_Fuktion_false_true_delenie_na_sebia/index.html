@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript_9_Fuktion_false_true_delenie_na_sebia</title>
+</head>
+<body>
+<h3> The function will return true if the number is greater than 1 and is divisible by only 1 and itself (that is, it is
+    not divisible by any number between 1 and itself).
+
+    <h1> Example </h1>
+
+    isPrime(1) // false (Did you catch this case?)
+    isPrime(13) // true
+    isPrime(2) // true
+    isPrime(14) // false
+    isPrime(4) // false
+    isPrime(22) // false
+</h3>
+<h2> см результат работы в консоли </h2>
+<script>
+
+    var falses = 0 ;
+    var trues = 0 ;
+    for (let num = -1; num < 100; num++) {
+        let isPrime = function (num) {
+            if (num <= 1) return false;
+
+            for (var count = 2; count < num; count++) {
+
+                if (num % count == 0) {
+                    return (
+                        ` делимых чисел (false) = ` + (falses = falses + 1))
+
+                }
+            }
+            return (
+                ` неделимых чисел (true) = `+ (trues = trues + 1));// написал я
+
+        }
+        console.log(num, isPrime(num) );
+    }
+    var n = 100
+    function showPrimes(n) {
+        nextPrime: for (let i = 2; i < n; i++) {
+
+            for (let j = 2; j < i; j++) {
+                if (i % j == 0) continue nextPrime;
+            }
+
+            alert( i ); // выводит ПРОСТОЕ ЧИСЛО В ALERT-ОКОШКО
+        }
+    }
+
+        console.log(showPrimes(n));
+
+</script>
+
+
+</body>
+</html>

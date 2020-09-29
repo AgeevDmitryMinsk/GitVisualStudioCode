@@ -1,0 +1,56 @@
+.header {
+    display:flex; /*Сделайте блок header флекс-контейнером*/
+    height: 95px; /*Задайте блоку с классом header высоту 95 пикселей.*/
+}
+
+.flex-row {         /*Превратите элемент с классом flex-row во флекс-контейнер. Затем поменяйте мышкой размеры окна просмотра.
+                    Изображения растягиваются и сжимаются, адаптируясь к новым условиям. Они продолжают заполнять собой весь флекс-контейнер.*/
+    display:flex;}
+
+div { /* будущий флекс-контейнер, задайте ему контур. Для этого установите всем блокам div рамку в 1 пиксель, сплошную, красного цвета.*/
+    border: 1px solid red;
+}
+
+.header {
+    display:flex;
+    height: 95px; /*Задайте блоку с классом header высоту 95 пикселей.*/
+}
+
+.header-link { /* ссылку с классом header-link выровняйте по центру этого контейнера. Для этого задайте ей поля выражением margin: auto;*/
+    margin: auto;
+}
+
+.project {
+    background: center; /*установите позицию фона в центре по горизонтали и вертикали;*/
+    background-size: cover; /* установите такой размер изображения, чтобы покрывало весь блок.*/
+}
+
+.project_beginner {
+    width: 636px;
+    height:430px;
+}
+
+.project_music-album { /* зададим фон: */
+    background-image: url(https://code.s3.yandex.net/web-code/album.png);
+}
+
+.project_design-principles {
+    background-image: url(https://code.s3.yandex.net/web-code/design.png);
+}
+
+.flex-column {
+    width:636px;
+    height:557px;
+}
+
+.project_procrastinate {
+    width:636px;
+    height:557px;
+}
+
+.project-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*Свойство object-fit подстроит элемент под размер так, чтобы он закрывал определенную площадь.
+                         Её задают параметрами width и height. Их нужно указать явно, в нашем случае — это 100% ширины и высоты родителя.*/
+}

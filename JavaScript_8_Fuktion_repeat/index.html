@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript_8_Funktion_repeat</title>
+</head>
+<body>
+<h1> repeat('ole', 4) // 'oleoleoleole' </h1>
+<h2> см результат работы в консоли </h2>
+<script>
+
+
+    let str = 'Ageev';
+    let times = 4;
+/*
+    let repeat = function (str, times) {
+        let str1 = '';
+        for (var count = 1; count <= times; count++) {
+            str1 += str  ;
+
+        }
+        return `${str1}`; // написал я
+    };
+*/
+    function repeat(str,times){  //крутой метод, пдсмотрел на форуме ответов
+        return new Array(times+1).join(str);
+    }
+
+    console.log(repeat(str,times));
+
+
+</script>
+
+
+</body>
+</html>

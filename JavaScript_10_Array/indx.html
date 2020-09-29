@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    var listOfNumbers = [2, 3, 5, 7, 11];
+    console.log(listOfNumbers[2]);
+    // → 5
+    console.log(listOfNumbers[1]);
+
+    console.log(listOfNumbers.length);
+
+    console.log(listOfNumbers['length']);
+
+    listOfNumbers[1]
+    console.log(listOfNumbers[2 - 2]);
+    // → 3
+
+
+    var doh = "Doh";
+    console.log(typeof doh.toUpperCase);
+    // → function
+    console.log(doh.toUpperCase());
+    // → DOH
+    console.log(doh.toLowerCase());
+    // → doh
+
+    var mack = [];
+    mack.push("Mack");
+    mack.push("the", "Knife");
+    console.log(mack);
+    // → ["Mack", "the", "Knife"]
+    console.log(mack.join(" ~ @ # "));
+    // → Mack the Knife
+    console.log(mack.length, mack);
+    console.log(mack.pop());
+    // → Knife
+    console.log(mack);
+    // → ["Mack", "the"]
+
+    var day1 = {
+        squirrel: `falsesesesggds`,
+        events: ["work", "touched tree", "pizza", "running",
+            "television"]
+    };
+    console.log(day1.squirrel);
+    // → falsesesesggds
+    console.log(day1.wolf);
+    // → undefined
+    console.log(day1.events);
+    // → Array(5) ["work", "touched tree", "pizza", "running", "television"]
+
+    day1.wolf = true;
+    console.log(day1.wolf);
+    // → true
+
+    day1.wolf = false;
+    console.log(day1.wolf);
+    // → false
+
+    var anObject = {left: 12, right: 25};
+    console.log(anObject.left);
+    // → 12
+    delete anObject.left;
+    console.log(anObject.left);
+    // → undefined
+    console.log("left" in anObject);
+    // → false
+    console.log("right" in anObject);
+    // → true
+
+    var journal = {
+        squirrel: `falsesesesggds`,
+        events: ["work", "touched tree", "pizza",
+            "running", "television"]
+    };
+    /*{events: ["work", "ice cream", "cauliflower",
+            "lasagna", "touched tree", "brushed teeth"],
+        squirrel: false},
+    {events: ["weekend", "cycling", "break",
+            "peanuts", "beer"],
+        squirrel: true}
+        */
+    console.log(journal.events[4]);
+    // → Array(5) ["work", "touched tree", "pizza", "running", "television"]
+    // television
+    var journal = [
+        {
+            events: ["work", "touched tree", "pizza",
+                "running", "television"],
+            squirrel: false
+        },
+        {
+            events: ["work", "ice cream", "cauliflower",
+                "lasagna", "touched tree", "brushed teeth"],
+            squirrel: false
+        },
+        {
+            events: ["weekend", "cycling", "break",
+                "peanuts", "beer"],
+            squirrel: true
+        }
+    ];
+    console.log(journal[1].events[3]);
+    // lasagna
+
+    console.log(journal[1].events[4]);
+    //touched tree
+
+    var arr = [1, 2, 3]; // 6
+    var sum = function () {
+        var summa = 0;
+        for (var index = 0; index < arr.length; index++) {
+            summa += arr[index];
+        }
+        console.log(summa);
+    }
+    sum(arr); // 6
+
+
+    var distanceZ = [{x1: 1, y1: 2}, {x2: 3, y2: 4}] // 5 массив
+    console.log(journal[1].events[3]);
+    console.log(distanceZ[0].y1); // 2 для []
+    console.log(distanceZ[0].x1); // 1 для []
+
+
+    function distance(p1, p2) {
+        p1 = {x: 0, y: 0}
+        p2 = {x: 3, y: 4}
+        return Math.sqrt(Math.pow((p1.x - p2.x), 2) + Math.pow((p1.y - p2.y), 2));
+    }
+
+    console.log(distance())
+    // Math.sqrt(4) //  2 - возвращает корень из числа 4
+    // Math.pow(3,2)//9 - возведение числа 3 в квадрат
+
+    function values(dict) {
+        dict = {a: 5, b: 7, c: 3, d: 4}; // [5, 7, 3, 4]
+        var test = Object.values(dict);  //возвращает массив значений.
+        return test;
+    }
+
+    console.log(values());
+
+    //    Object.keys(obj) – возвращает массив ключей.
+    //    Object.values(obj) – возвращает массив значений.
+    //    Object.entries(obj) – возвращает массив пар [ключ, значение].
+
+
+    // Функции могут быть созданы внутри других функций, создавая несколько степеней локальности:
+    var landscape = function() {
+        var result = "";
+        var flat = function(size) {
+            for (var count = 0; count < size; count++)
+                result += "_";
+        };
+        var mountain = function(size) {
+            result += "/";
+            for (var count = 0; count < size; count++)
+                result += "'";
+            result += "\\";
+        };
+
+        flat(13); // равнина
+        mountain(5); // гора
+        flat(1);
+        mountain(8);
+        flat(2);
+        mountain(4);
+        flat(9);
+        return result;
+    };
+
+    console.log(landscape());
+    // → ___/''''\______/'\_
+
+
+</script>
+
+</body>
+</html>

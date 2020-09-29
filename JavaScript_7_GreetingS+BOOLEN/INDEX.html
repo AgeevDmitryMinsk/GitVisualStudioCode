@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript_6_Greeting+boolen</title>
+    </head>
+<body>
+<h1> Huey, Dewey and Louie </h1>
+<h2> см результат работы в консоли </h2>
+<script>
+
+
+    let item1 = 'Huey';
+    let item2 = 'Dewey';
+    let item3 = 'Louie';
+   
+
+  /*  const commaList = function (item1, item2, item3, useOxfordComma) {
+     if (useOxfordComma != false){ item2 += ','  }
+
+         return '${item1}, ${item2} and ${item3}';
+      }
+
+     console.log(commaList(item1,item2, item3));
+*/
+
+    let commaList = function(item1, item2, item3, useOxfordComma){
+    var useOxfordComma = false;
+        if(useOxfordComma){
+            item2 = item2 + ',';
+        }
+        return `${item1}, ${item2} and ${item3}`;
+    };
+
+
+    console.log(commaList(item1, item2, item3));
+
+
+</script>
+
+
+
+</body>
+</html>

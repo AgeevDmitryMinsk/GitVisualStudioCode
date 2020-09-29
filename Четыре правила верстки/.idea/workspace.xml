@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39aae8d3-5181-49d5-acec-9714cd8b751f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../JavaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript_2/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript_2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript_2/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript_2/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minsk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Minsk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Кнопка для Кати и Саши/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Кнопка для Кати и Саши/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Котики)/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Котики)/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Котики)/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Котики)/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1iB1f5A5HoHsj7T4DphyIGHxQST" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Кнопка для Кати и Саши" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39aae8d3-5181-49d5-acec-9714cd8b751f" name="Default Changelist" comment="" />
+      <created>1601366270648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601366270648</updated>
+      <workItem from="1601366271713" duration="1550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="620" y="259" key="FileChooserDialogImpl" timestamp="1601367554763">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="259" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1601367554763" />
+  </component>
+</project>

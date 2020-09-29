@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<h1> Делим на 3 Fizz, на 5 Buzz, на 15 - FizzBuzz </h1>
+<h1> См. результат расчета в консоли </h1>
+<script type="text/javascript">
+
+    // for (var number = 0; number <= 100; number = number + 1)
+    //     console.log(number);
+
+    var number = 0;
+    
+
+        for (var number = 1; number <= 100; number = number + 1) {
+                   
+
+        if (number % 15 == 0) {
+            console.log('FizzBuzz');}
+        else if (number % 5 == 0){
+            console.log('Buzz');}
+            else if (number % 3 == 0) {
+                console.log('Fizz');}
+            else {console.log(number);} 
+    }
+
+
+    console.log('it works!');
+</script>
+</body>
+
+</html>
+

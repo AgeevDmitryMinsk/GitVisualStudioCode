@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1> локальные и глобальные переменные переменную</h1>
+<h2> см результат в консоли </h2>
+<body>
+<script>
+
+    var myVar = 3;
+    var anotherVar = 'Hello';
+    var myFunc = function () {
+        var myVar = 4;
+        anotherVar = 'World'
+        console.log(myVar);
+        console.log(anotherVar);
+    }
+
+    console.log(myVar);
+    console.log(anotherVar);
+    myFunc();
+    console.log(myVar);
+    console.log(anotherVar);
+
+
+</script>
+</body>
+
+</html>

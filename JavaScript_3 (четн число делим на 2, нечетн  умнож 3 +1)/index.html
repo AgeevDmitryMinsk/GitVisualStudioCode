@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<h1> Делим четное на 2, нечентное умножаем на 3 + 1. </h1>
+<h2> Смотри результат в консоли. </h2>
+<script type="text/javascript">
+
+    var num = 83;
+
+    while (num != 1) {
+
+        if (num % 2 == 0) {
+            num = num / 2;
+            console.log(num);
+        }
+        else {
+            num = (num * 3) + 1;
+            console.log(num);
+        }
+
+    }
+    console.log('it works!');
+</script>
+</body>
+
+</html>
