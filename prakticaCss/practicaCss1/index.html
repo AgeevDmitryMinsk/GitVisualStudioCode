@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Портфолио</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Портфолио</title>
 </head>
 <body>
-<div class="header"> <!-- Заготовим HTML-элементы, которым предстоит стать флекс-контейнером и флекс-элементом.
+  <div class="header"> <!-- Заготовим HTML-элементы, которым предстоит стать флекс-контейнером и флекс-элементом.
                         Создайте блок div с классом header. Внутри него расположите
                         ссылку Яндекс Практикум, ведущую по адресу #. Дайте ей класс header-link.-->
-<a href="#" class="header-link">Яндекс Практикум</a>
-
-    <div class="flex-row"> <!-- Создайте блок div с классом flex-row (дословно — «гибкий ряд»).
-                            внутри этого блока создайте два элемента. Каждому присвойте два класса: project и project_beginner.
-                            Затем первому блоку присвойте дополнительный класс project_music-album, второму — project_design-principles.-->
-        <div class="project project_beginner project_music-album"></div>
-        <div class="project project_beginner project_design-principles"></div>
+    <a href="#" class="header-link">Яндекс Практикум</a>
+  </div>
+  <div class="flex-row"> <!-- Создайте блок div с классом flex-row (дословно — «гибкий ряд»).
+                        внутри этого блока создайте два элемента. Каждому присвойте два класса: project и project_beginner.
+                        Затем первому блоку присвойте дополнительный класс project_music-album, второму — project_design-principles.-->
+    <div class="project project_beginner project_music-album"></div>
+    <div class="project project_beginner project_design-principles"></div>
+  </div>
+  <div class="flex-row">  <!--Под блоком с классом flex-row создайте еще один блок div. Назначьте ему тот же класс.
+                        В новый div положите два дочерних блока div. Левому блоку присвойте класс flex-column —
+                        здесь покажем несколько проектов в одну колонку. -->
+    <div class="flex-column">
+      <div class="project project_frameworks project_p5"></div>
+      <div class="flex-row flex-row_frameworks-inner"></div>
     </div>
-
-    <div class="flex-row">       <!--Под блоком с классом flex-row создайте еще один блок div. Назначьте ему тот же класс.
-                                    В новый div положите два дочерних блока div. Левому блоку присвойте класс flex-column —
-                                    здесь покажем несколько проектов в одну колонку. -->
-        <div class="flex-column">
-            <div class="project project_frameworks project_p5"></div>
-            <div class="flex-row flex-row_frameworks-inner"></div>
-        </div>
-        <div class="project project_frameworks project_procrastinate"></div>
-                                <!--Правому блоку задайте два класса: project и project_frameworks. Первый — project — определяет
-                                универсальные правила для всех проектов. Второй — project_frameworks — для проектов, где используются
-                                библиотеки JavaScript. То есть для тех четырёх, для которых мы готовим сетку сейчас.-->
-
-            <video class="project-video" src="https://code.s3.yandex.net/web-code/procrastinate.mov" autoplay muted loop></video>     
-                                    <!-- Для размещения видео есть тег <video>. Он похож на тег <img>, но с особенностями. 
-                                    Об этих особенностях мы подробно расскажем в теме о работе с медиафайлами.-->                
+    <div class="project project_frameworks project_procrastinate"> 
+        <!--Правому блоку задайте два класса: project и project_frameworks. Первый — project — определяет
+        универсальные правила для всех проектов. Второй — project_frameworks — для проектов, где используются
+        библиотеки JavaScript. То есть для тех четырёх, для которых мы готовим сетку сейчас.-->
+      <video class="project-video" src="https://code.s3.yandex.net/web-code/procrastinate.mov" autoplay muted loop></video>
+                  <!-- Для размещения видео есть тег <video>. Он похож на тег <img>, но с особенностями. 
+                   Об этих особенностях мы подробно расскажем в теме о работе с медиафайлами.-->                
     </div>
-
-</div>
+  </div>
 </body>
 </html>
